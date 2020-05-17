@@ -1,2 +1,2 @@
 # 预览地址
-[qinxs.github.io](https://qinxs.github.io/)
+<a href="https://qinxs.github.io/" target="_blank">qinxs.github.io</a>
