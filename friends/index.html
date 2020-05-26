@@ -335,7 +335,43 @@
                 
                 <div class='friend-content'>
                   
-                    <a class='friend-card' style='background:f6f6f6; color:rgba(85,85,85,0.65)'
+                    <a class='friend-card' style='background:#607D8B; color:#EFEFEF'
+                      target="_blank" rel="external nofollow noopener noreferrer" href='https://qinxs.github.io'>
+                      <div class='friend-left'>
+                        
+                          <img class='avatar' src='https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/img/avatar.png'/>
+                        
+                      </div>
+                      <div class='friend-right'>
+                        <p class="friend-name">qinxs</p>
+                        
+                        
+                          <div class='friend-tags-wrapper'>
+                            <p class="tags">博主本人~</p>
+                          </div>
+                        
+                      </div>
+                    </a>
+                  
+                    <a class='friend-card' style='background:#87977F; color:#EFEFEF'
+                      target="_blank" rel="external nofollow noopener noreferrer" href='https://xaoxuu.com'>
+                      <div class='friend-left'>
+                        
+                          <img class='avatar' src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png'/>
+                        
+                      </div>
+                      <div class='friend-right'>
+                        <p class="friend-name">xaoxuu</p>
+                        
+                        
+                          <div class='friend-tags-wrapper'>
+                            <p class="tags">主题作者</p>
+                          </div>
+                        
+                      </div>
+                    </a>
+                  
+                    <a class='friend-card' style='background:#3E74C9; color:#FFF'
                       target="_blank" rel="external nofollow noopener noreferrer" href='https://mrhuanhao.cn/'>
                       <div class='friend-left'>
                         
@@ -344,14 +380,6 @@
                       </div>
                       <div class='friend-right'>
                         <p class="friend-name">Huanhao</p>
-                        
-                          <div class='friend-tags-wrapper'>
-                          
-                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>标签1</p>
-                          
-                            <p class="tags"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>标签2</p>
-                          
-                          </div>
                         
                         
                           <div class='friend-tags-wrapper'>
@@ -367,7 +395,16 @@
           
         
         <br><br>
-        <p>下方的备注，例如自己的友链规范、示例等。</p>
+        <div class="tabs" id="tab-id"><ul class="nav-tabs"><li class="tab active"><a href="#tab-id-1">交友链接</a></li><li class="tab"><a href="#tab-id-2">辅助工具</a></li><li class="tab"><a href="#tab-id-3">特别感谢</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-id-1"><p>各位大佬想交换友链的话可以在下方留言哦～</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">qinxs</span></span><br><span class="line">  <span class="attr">url:</span> <span class="string">https://qinxs.github.io</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/img/avatar.png</span></span><br><span class="line">  <span class="attr">backgroundColor:</span> <span class="string">'#607D8B'</span></span><br><span class="line">  <span class="attr">textColor:</span> <span class="string">'#EFEFEF'</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>颜色仅供参考。  </li>
+<li>站点要求：<u>内容合法</u>、<u>非营利性</u>。</li>
+</ul></div><div class="tab-pane" id="tab-id-2"><div class="btns rounded grid5">
+            <a href='//sm.ms/' target="_blank" rel="noopener" title='sm.ms图床'><i class='fas fa-upload'></i>sm.ms图床</a>
+<a href='//www.yasuotu.com/' target="_blank" rel="noopener" title='压缩图片'><i class='fas fa-image'></i>压缩图片</a>
+          </div></div><div class="tab-pane" id="tab-id-3"><p>此友链页面参照了<br><a href="https://xaoxuu.com" target="_blank" rel="noopener">xaoxuu</a><br><a href="https://mrhuanhao.cn/" target="_blank" rel="noopener">Huanhao</a><br>的博客布局与内容，特此感谢~</p></div></div></div>
       </section>
   </article>
 
@@ -375,7 +412,24 @@
 
 
 
-  
+  <article class="post white-box reveal comments shadow blur">
+    <section class="article typo">
+      <p ct><i class='fas fa-comments'></i> 用户交流区</p>
+      
+      
+      
+      
+      
+      
+        <section id="comments">
+          <div id="valine_container" class="valine_thread">
+            <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
+          </div>
+        </section>
+      
+      
+    </section>
+  </article>
 
 
 
@@ -527,6 +581,60 @@
 
 
 
+
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js"></script>
+
+  
+  <script>
+  var GUEST_INFO = ['nick','mail','link'];
+  var meta = 'nick,mail'.split(',').filter(function(item){
+    return GUEST_INFO.indexOf(item) > -1
+  });
+  var REQUIRED_FIELDS = ['nick','mail','link'];
+  var requiredFields = 'nick,mail'.split(',').filter(function(item){
+    return REQUIRED_FIELDS.indexOf(item) > -1
+  });
+  var valine = new Valine();
+  function emoji(path, idx, ext) {
+      return path + "/" + path + "-" + idx + "." + ext;
+  }
+  var emojiMaps = {};
+  for (var i = 1; i <= 54; i++) {
+    emojiMaps['tieba-' + i] = emoji('tieba', i, 'png');
+  }
+  for (var i = 1; i <= 101; i++) {
+    emojiMaps['qq-' + i] = emoji('qq', i, 'gif');
+  }
+  for (var i = 1; i <= 116; i++) {
+    emojiMaps['aru-' + i] = emoji('aru', i, 'gif');
+  }
+  for (var i = 1; i <= 125; i++) {
+    emojiMaps['twemoji-' + i] = emoji('twemoji', i, 'png');
+  }
+  for (var i = 1; i <= 4; i++) {
+    emojiMaps['weibo-' + i] = emoji('weibo', i, 'png');
+  }
+  valine.init({
+    el: '#valine_container',
+    meta: meta,
+    
+    appId: "dEzynOqljlio35dSh2LiiVoq-gzGzoHsz",
+    appKey: "8JG7W1tLqVJgkArPh8Mmk1E9",
+    placeholder: "快来评论吧~",
+    pageSize:'10',
+    avatar:'robohash',
+    lang:'zh-cn',
+    visitor: 'true',
+    highlight: 'true',
+    mathJax: 'false',
+    enableQQ: 'true',
+    requiredFields: requiredFields,
+    emojiCDN: 'https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/',
+    emojiMaps: emojiMaps
+  })
+  </script>
 
 
 
