@@ -493,7 +493,7 @@
   <div class="new-meta-item wordcount">
     <a class='notlink'>
       <i class="fas fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：741字</p>
+      <p>字数：745字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
@@ -533,7 +533,7 @@
 <li>连续猜错5次  退出（提示GAME OVER）</li>
 <li>猜测正确（返回 you got it!）</li>
 </ul>
-<h3 id="Shell备忘"><a href="#Shell备忘" class="headerlink" title="Shell备忘"></a>Shell备忘</h3><h4 id="文件模式"><a href="#文件模式" class="headerlink" title="文件模式"></a>文件模式</h4><p>windows下的换行（\r\n）与linux（\n）下不同，如果是windows下创建的shell文件，传到linux后，需要在vim下重设格式为linux模式（重新编辑不需要改）</p>
+<h3 id="Shell备忘"><a href="#Shell备忘" class="headerlink" title="Shell备忘"></a>Shell备忘</h3><h4 id="a-文件模式"><a href="#a-文件模式" class="headerlink" title="a. 文件模式"></a>a. 文件模式</h4><p>windows下的换行（\r\n）与linux（\n）下不同，如果是windows下创建的shell文件，传到linux后，需要在vim下重设格式为linux模式（重新编辑不需要改）</p>
 <ul>
 <li><code>set ff</code> 查看文件模式</li>
 <li><code>set ff=unix</code> 设置文件为unix模式<blockquote>
@@ -541,14 +541,14 @@
 </blockquote>
 </li>
 </ul>
-<h4 id="立即执行"><a href="#立即执行" class="headerlink" title="立即执行"></a>立即执行</h4><ul>
+<h4 id="b-立即执行"><a href="#b-立即执行" class="headerlink" title="b. 立即执行"></a>b. 立即执行</h4><ul>
 <li>$()</li>
 <li>``<blockquote>
 <p>推荐最外层用反引号``，内层用$(), 如：<br>rd=`echo $(head -20 /dev/urandom | cksum | cut -f1 -d “ “) % 100 | bc`</p>
 </blockquote>
 </li>
 </ul>
-<h4 id="各种判断（及推荐用法）"><a href="#各种判断（及推荐用法）" class="headerlink" title="各种判断（及推荐用法）"></a>各种判断（及推荐用法）</h4><ul>
+<h4 id="c-各种判断（及推荐用法）"><a href="#c-各种判断（及推荐用法）" class="headerlink" title="c. 各种判断（及推荐用法）"></a>c. 各种判断（及推荐用法）</h4><ul>
 <li><code>[]</code>   用于判断文件（目录）或者变量的存在与否,如 [ -z “a.sh” ] </li>
 <li><code>[[]]</code> 用于正则判断，如 [[ “$INT” =~ ^-?[0-9]+$ ]]</li>
 <li><code>(())</code> 用于整数比较和计算,如 (( $gn &gt; $rd )) 、$((chance-count))</li>
@@ -558,7 +558,7 @@
 </blockquote>
 </li>
 </ul>
-<h4 id="函数的返回值"><a href="#函数的返回值" class="headerlink" title="函数的返回值"></a><a href="https://www.runoob.com/linux/linux-shell-func.html" target="_blank" rel="noopener"><strong>函数</strong></a>的返回值</h4><ul>
+<h4 id="d-函数的返回值"><a href="#d-函数的返回值" class="headerlink" title="d. 函数的返回值"></a>d. <a href="https://www.runoob.com/linux/linux-shell-func.html" target="_blank" rel="noopener"><strong>函数</strong></a>的返回值</h4><ul>
 <li>可以显示加：return 返回</li>
 <li>如果不加，将以最后一条命令运行结果，作为返回值</li>
 <li>return后跟数值n(0-255)<blockquote>
@@ -602,7 +602,7 @@
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-06-06T23:54:06+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-06-06T23:57:41+08:00">
   <a class='notlink'>
     <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2020年6月6日</p>
@@ -761,7 +761,7 @@
 
 
     <div class='content'>
-      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#猜数字规则"><span class="toc-number">1.</span> <span class="toc-text">猜数字规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Shell备忘"><span class="toc-number">2.</span> <span class="toc-text">Shell备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#文件模式"><span class="toc-number">2.1.</span> <span class="toc-text">文件模式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#立即执行"><span class="toc-number">2.2.</span> <span class="toc-text">立即执行</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#各种判断（及推荐用法）"><span class="toc-number">2.3.</span> <span class="toc-text">各种判断（及推荐用法）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#函数的返回值"><span class="toc-number">2.4.</span> <span class="toc-text">函数的返回值</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#猜数字代码"><span class="toc-number">3.</span> <span class="toc-text">猜数字代码</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#猜数字规则"><span class="toc-number">1.</span> <span class="toc-text">猜数字规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Shell备忘"><span class="toc-number">2.</span> <span class="toc-text">Shell备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#a-文件模式"><span class="toc-number">2.1.</span> <span class="toc-text">a. 文件模式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#b-立即执行"><span class="toc-number">2.2.</span> <span class="toc-text">b. 立即执行</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#c-各种判断（及推荐用法）"><span class="toc-number">2.3.</span> <span class="toc-text">c. 各种判断（及推荐用法）</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#d-函数的返回值"><span class="toc-number">2.4.</span> <span class="toc-text">d. 函数的返回值</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#猜数字代码"><span class="toc-number">3.</span> <span class="toc-text">猜数字代码</span></a></li></ol>
     </div>
   </section>
 
