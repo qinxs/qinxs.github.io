@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme='https://volantis.js.org/#2.6.5'>
+<head hexo-theme='https://volantis.js.org/#2.6.6'>
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -449,7 +449,7 @@
   
 
   
-    <article id="post" class="post white-box reveal shadow blur article-type-post" itemscope itemprop="blogPost">
+    <article id="post" class="post white-box reveal shadow article-type-post" itemscope itemprop="blogPost">
       
 
 
@@ -726,7 +726,7 @@
 
 
 
-  <article class="post white-box reveal comments shadow blur">
+  <article class="post white-box reveal comments shadow">
     <section class="article typo">
       <p ct><i class='fas fa-comments'></i> 用户交流区</p>
       
@@ -773,7 +773,8 @@
     
 
 
-  <section class="widget toc-wrapper shadow blur desktop mobile">
+
+  <section class="widget toc-wrapper shadow desktop mobile" id="toc-div" >
     
   <header>
     
@@ -783,7 +784,7 @@
 
 
     <div class='content'>
-      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#猜数字规则"><span class="toc-number">1.</span> <span class="toc-text">猜数字规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Shell备忘"><span class="toc-number">2.</span> <span class="toc-text">Shell备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#a-文件模式"><span class="toc-number">2.1.</span> <span class="toc-text">a. 文件模式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#b-立即执行"><span class="toc-number">2.2.</span> <span class="toc-text">b. 立即执行</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#c-各种判断"><span class="toc-number">2.3.</span> <span class="toc-text">c. 各种判断</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#d-函数的返回值"><span class="toc-number">2.4.</span> <span class="toc-text">d. 函数的返回值</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#猜数字代码"><span class="toc-number">3.</span> <span class="toc-text">猜数字代码</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#猜数字规则"><span class="toc-text">猜数字规则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Shell备忘"><span class="toc-text">Shell备忘</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#a-文件模式"><span class="toc-text">a. 文件模式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#b-立即执行"><span class="toc-text">b. 立即执行</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#c-各种判断"><span class="toc-text">c. 各种判断</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#d-函数的返回值"><span class="toc-text">d. 函数的返回值</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#猜数字代码"><span class="toc-text">猜数字代码</span></a></li></ol>
     </div>
   </section>
 
@@ -804,7 +805,7 @@
     
       
         本站使用
-        <a href="https://volantis.js.org/" target="_blank" class="codename">volantis</a>
+        <a href="https://volantis.js.org/" target="_blank" class="codename">Volantis</a>
         作为主题，总访问量为
           <span id="busuanzi_value_site_pv"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
           次
@@ -837,6 +838,9 @@
     var ROOT = "/" || "/";
     if (!ROOT.endsWith('/')) ROOT += '/';
   </script>
+
+
+
 
 
   <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
@@ -1116,6 +1120,7 @@
     pjax_fancybox();
   });
 </script>
+
 
 
 
