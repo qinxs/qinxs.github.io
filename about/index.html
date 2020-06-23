@@ -475,7 +475,26 @@
     autoplay="true"
     url="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/media/yishengdengni.aac"
     cover="http://5b0988e595225.cdn.sohucs.com/images/20190302/a3da26f738174f1e85041e37a269007b.jpeg"><br></meting-js></p>
+<center>
+<div id="catch-the-cat"></div>
+</center>
 
+<script src="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/js/catch-the-cat/phaser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/js/catch-the-cat/catch-the-cat.js"></script>
+
+<script>
+let is_mobi = navigator.userAgent.toLowerCase().match(/(ipod|ipad|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i) != null;
+is_mobi ? radius = 12 : radius = 20;
+window.game = new CatchTheCatGame({ 
+    w: 11, 
+    h: 11, 
+    r: radius, 
+    backgroundColor: 0xeeeeee, 
+    parent: "catch-the-cat", 
+    statusBarAlign: "center", 
+    credit: " "
+});
+</script>
           
         </div>
         
