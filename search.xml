@@ -15,12 +15,16 @@
           
           <category> 工具学习 </category>
           
+          <category> shell </category>
+          
       </categories>
       
       
         <tags>
             
             <tag> shell </tag>
+            
+            <tag> 猜数字游戏 </tag>
             
         </tags>
       
@@ -39,6 +43,8 @@
       <categories>
           
           <category> 工具学习 </category>
+          
+          <category> git </category>
           
       </categories>
       
