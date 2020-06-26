@@ -58,7 +58,7 @@
   
   
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/css/style2.css">
 
   
 
@@ -741,7 +741,24 @@ Welcome to Hexo! This is your very first post. Check documentation for ...</p>
 
 
 
-  
+  <article class="post white-box reveal comments shadow">
+    <section class="article typo">
+      <p ct><i class='fas fa-comments'></i> 用户交流区</p>
+      
+      
+      
+      
+      
+      
+      
+        <section id="comments">
+          <div id="minivaline_container">
+            <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
+          </div>
+        </section>
+      
+    </section>
+  </article>
 
 
   
@@ -799,7 +816,7 @@ Welcome to Hexo! This is your very first post. Check documentation for ...</p>
       
         本站使用
         <a href="https://volantis.js.org/" target="_blank" class="codename">Volantis</a>
-        作为主题，总访问量为
+        作为主题，总访问量
           <span id="busuanzi_value_site_pv"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
           次
         
@@ -880,7 +897,7 @@ Welcome to Hexo! This is your very first post. Check documentation for ...</p>
 
     <script type="text/javascript">
       $(function(){
-        var imgs=["https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/img/bg.jpg"];
+        var imgs=["https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/img/bg1.jpg"];
         if ('true' == 'true') {
           function shuffle(arr){
             /*From countercurrent-time*/
@@ -934,6 +951,41 @@ Welcome to Hexo! This is your very first post. Check documentation for ...</p>
 
 
 
+
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/minivaline@2/dist/MiniValine.min.js"></script>
+
+  
+  
+  
+  
+  
+  <script>
+  new MiniValine({
+	el: '#minivaline_container',
+	appId: 'vVBSYF0IQyo9CMJhoasKMhpY-MdYXbMMI',
+	appKey: 'OQGAdiYJOogY7DtjgwRE6PgK',
+	mode: 'xCss',
+	placeholder: "快来评论吧~",
+	
+	  pathname: location.pathname,
+	
+	lang: '',
+	adminEmailMd5: 'de8a7aa53d07e6b6bceb45c64027763d',
+	tagMeta: ["管理员", "小伙伴", "访客"],
+	master: ["de8a7aa53d07e6b6bceb45c64027763d"],
+	friends: ["b5bd5d836c7a0091aa8473e79ed4c25e", "adb7d1cd192658a55c0ad22a3309cecf", "3ce1e6c77b4910f1871106cb30dc62b0", "cfce8dc43725cc14ffcd9fb4892d5bfc"],
+	math: true,  /*布尔值 字符串无效 下同*/
+	md: true,
+	enableQQ: false,
+	NoRecordIP: false,
+	visitor: true,
+	maxNest: 6,
+	pageSize: 6,
+	emoticonUrl: ["https://cdn.jsdelivr.net/npm/alus@latest", "https://cdn.jsdelivr.net/gh/MiniValine/qq@latest", "https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest", "https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest", "https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest", "https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest"]
+  });
+  </script>
 
 
 
