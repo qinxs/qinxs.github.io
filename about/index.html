@@ -809,7 +809,7 @@ setInterval("createtime()",250);
   
   <script>
   var GUEST_INFO = ['nick','mail','link'];
-  var meta = 'nick,mail'.split(',').filter(function(item){
+  var meta = 'nick,mail,link'.split(',').filter(function(item){
     return GUEST_INFO.indexOf(item) > -1
   });
   var REQUIRED_FIELDS = ['nick','mail','link'];
