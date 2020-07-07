@@ -641,31 +641,15 @@
 <div id="catch-the-cat"></div>
 </center>
 
-<blockquote>
-<p>合并pjax后，第一次进入需要刷新下，处理中</p>
-</blockquote>
 <p class='p h2'>游戏规则</p> 
 <ol>
 <li>点击小圆点，围住小猫。</li>
 <li>你点击一次，小猫走一次。</li>
 <li>直到你把小猫围住（赢），或者小猫走到边界并逃跑（输）。</li>
 </ol>
-<script src="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/js/catch-the-cat/phaser.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/js/catch-the-cat/catch-the-cat.js"></script>
-
-<script>
-var is_mobi = navigator.userAgent.toLowerCase().match(/(ipod|ipad|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i) != null;
-is_mobi ? radius = 12 : radius = 20;
-window.game = new CatchTheCatGame({ 
-    w: 11, 
-    h: 11, 
-    r: radius, 
-    backgroundColor: 0xeeeeee, 
-    parent: "catch-the-cat", 
-    statusBarAlign: "center", 
-    credit: " "
-});
-</script>
+<script defer src="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/js/catch-the-cat/phaser.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/js/catch-the-cat/catch-the-cat.js"></script>
+<script defer src="/js/game.js"></script>
           
         </div>
         
