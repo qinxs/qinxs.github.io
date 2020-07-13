@@ -1,5 +1,5 @@
 !function() {
-  var is_mobi = navigator.userAgent.toLowerCase().match(/(ipod|ipad|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i) != null;
+  const is_mobi = navigator.userAgent.toLowerCase().match(/(ipod|ipad|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i) != null;
   is_mobi ? radius = 12 : radius = 20;
   window.game = new CatchTheCatGame({ 
       w: 11, 
