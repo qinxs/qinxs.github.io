@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://qinxs.github.io/admin/</loc>
+        <lastmod>2020-07-13T13:21:09.313Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://qinxs.github.io/more/operations/</loc>
         <lastmod>2020-07-08T06:58:14.104Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,13 +24,6 @@
     <url>
         <loc>https://qinxs.github.io/more/CatchTheCat/</loc>
         <lastmod>2020-07-07T12:17:23.502Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://qinxs.github.io/admin/</loc>
-        <lastmod>2020-07-07T10:40:29.539Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
