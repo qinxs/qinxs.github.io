@@ -1347,7 +1347,7 @@ setInterval("createtime()",250);
         timeout: 0
       });
     });
-  
+
     document.addEventListener('pjax:send', function (e) {
       window.stop(); // 相当于点击了浏览器的停止按钮
       var currentUrl = window.location.pathname;
@@ -1373,7 +1373,7 @@ setInterval("createtime()",250);
       $(document).unbind('scroll');  // 解绑
       window.ShowLoading();
     });
-  
+
     document.addEventListener('pjax:complete', function () {
       // 关于百度统计对 SPA 页面的处理：
       // 方案一：百度统计>管理>单页应用设置中，打开开启按钮即可对SPA进行统计。 https://tongji.baidu.com/web/help/article?id=324
@@ -1381,18 +1381,18 @@ setInterval("createtime()",250);
       // 
       // _hmt.push(['_trackPageview', document.location.pathname]);
       // 
-  
+
       // 关于谷歌统计对 SPA 页面的处理：
       // 当应用以动态方式加载内容并更新地址栏中的网址时，也应该更新通过 gtag.js 存储的网页网址。
       // https://developers.google.cn/analytics/devguides/collection/gtagjs/single-page-applications?hl=zh-cn
       
-      
+
       $('.nav-main').find('.list-v').not('.menu-phone').removeAttr("style",""); // 移除小尾巴的移除
       $('.menu-phone.list-v').removeAttr("style",""); // 移除小尾巴的移除
       $('script[data-pjax], .pjax-reload script').each(function () {
         $(this).parent().append($(this).remove());
       });
-  
+
       try{
         pjax_fancybox();
         
@@ -1410,15 +1410,17 @@ setInterval("createtime()",250);
       } catch (e) {
         console.log(e);
       }
+      // 刷新 hljs
+      
       window.HideLoading();
     });
-  
-    document.addEventListener('pjax:error', function (e) { 
-      window.HideLoading(); 
-      window.location.href = e.triggerElement.href; 
-    }); 
+
+    document.addEventListener('pjax:error', function (e) {
+      window.HideLoading();
+      window.location.href = e.triggerElement.href;
+    });
 </script>
-  
+
     
   </div>
   <!-- 页面点击小红心 -->
