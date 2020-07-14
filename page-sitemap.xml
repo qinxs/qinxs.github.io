@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://qinxs.github.io/friends/</loc>
+        <lastmod>2020-07-14T06:31:32.889Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://qinxs.github.io/admin/</loc>
         <lastmod>2020-07-13T13:21:09.313Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -31,13 +38,6 @@
     <url>
         <loc>https://qinxs.github.io/about/</loc>
         <lastmod>2020-07-07T09:37:29.277Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://qinxs.github.io/friends/</loc>
-        <lastmod>2020-07-07T06:21:23.928Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
