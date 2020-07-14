@@ -1969,6 +1969,13 @@ pre {
 .article pre:hover .btn-copy {
   opacity: 1;
 }
+body {
+  cursor: url("https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/img/default.cur"), default;
+}
+a,
+img {
+  cursor: url("https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/img/pointer.cur"), default;
+}
 .darkmode-toggle {
   z-index: 100000;
 }
