@@ -177,7 +177,7 @@
   <div class='wrapper'>
     <div class='nav-sub'>
       <p class="title"></p>
-      <ul class='switcher nav-list-h'>
+      <ul class='switcher nav-list-h' id="pjax-header-nav-list">
         <li><a class="s-comment fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
         
           <li><a class="s-toc fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
@@ -1299,7 +1299,8 @@ setInterval("createtime()",250);
         elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([pjax-fancybox])',
         selectors: [
           "title",
-          "#pjax-container"
+          "#pjax-container",
+          "#pjax-header-nav-list"
         ],
         cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
         timeout: 10000
@@ -1326,10 +1327,8 @@ setInterval("createtime()",250);
       $('.l_header').removeClass('z_search-open'); // 关闭移动端激活的搜索框
       $('.wrapper').removeClass('sub'); // 跳转页面时关闭二级导航
 
-      $('.s-top').unbind('click'); // 解绑
+      $('.s-top').unbind('click');   // 解绑
       $('.menu a').unbind('click');  // 解绑
-      $('.s-toc', $('header .wrapper')).unbind('click'); // 解绑
-      $('.s-comment', $('header .wrapper')).unbind('click'); // 解绑
       $(window).unbind('resize');    // 解绑
       $(window).unbind('scroll');    // 解绑
       $(document).unbind('scroll');  // 解绑
