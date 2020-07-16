@@ -8,15 +8,15 @@
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/series/docker/</loc>
-        <lastmod>2020-07-16T02:03:47.626Z</lastmod>
+        <loc>https://qinxs.github.io/series/docker/test1/</loc>
+        <lastmod>2020-07-16T02:07:44.865Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/series/docker/test1/</loc>
-        <lastmod>2020-07-16T01:49:13.883Z</lastmod>
+        <loc>https://qinxs.github.io/series/docker/</loc>
+        <lastmod>2020-07-16T02:03:47.626Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
