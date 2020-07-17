@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://qinxs.github.io/more/operations/</loc>
+        <lastmod>2020-07-17T12:27:49.008Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://qinxs.github.io/cover/</loc>
         <lastmod>2020-07-17T12:10:10.662Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -45,13 +52,6 @@
     <url>
         <loc>https://qinxs.github.io/series/docker/test2/</loc>
         <lastmod>2020-07-15T16:56:14.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://qinxs.github.io/more/operations/</loc>
-        <lastmod>2020-07-15T16:18:59.543Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
