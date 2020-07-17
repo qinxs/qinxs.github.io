@@ -8,15 +8,15 @@
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/tongji/</loc>
-        <lastmod>2020-07-17T13:40:25.990Z</lastmod>
+        <loc>https://qinxs.github.io/more/operations/</loc>
+        <lastmod>2020-07-17T13:59:27.318Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/more/operations/</loc>
-        <lastmod>2020-07-17T12:34:10.853Z</lastmod>
+        <loc>https://qinxs.github.io/tongji/</loc>
+        <lastmod>2020-07-17T13:59:04.694Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -43,14 +43,14 @@
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/series/docker/Introduction/</loc>
+        <loc>https://qinxs.github.io/series/docker/test2/</loc>
         <lastmod>2020-07-15T16:56:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/series/docker/test2/</loc>
+        <loc>https://qinxs.github.io/series/docker/Introduction/</loc>
         <lastmod>2020-07-15T16:56:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
