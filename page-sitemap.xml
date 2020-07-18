@@ -8,15 +8,22 @@
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/cover/</loc>
-        <lastmod>2020-07-18T07:00:35.552Z</lastmod>
+        <loc>https://qinxs.github.io/more/operations/</loc>
+        <lastmod>2020-07-18T09:22:30.932Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/more/operations/</loc>
-        <lastmod>2020-07-17T16:42:20.014Z</lastmod>
+        <loc>https://qinxs.github.io/cover/</loc>
+        <lastmod>2020-07-18T09:19:29.441Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://qinxs.github.io/about/</loc>
+        <lastmod>2020-07-18T09:02:54.052Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -59,13 +66,6 @@
     <url>
         <loc>https://qinxs.github.io/series/docker/Introduction/</loc>
         <lastmod>2020-07-15T16:56:14.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://qinxs.github.io/about/</loc>
-        <lastmod>2020-07-07T09:37:29.277Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
