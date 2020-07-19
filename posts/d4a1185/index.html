@@ -133,8 +133,8 @@
     document.addEventListener('pjax:error', function (e) {
       window.HideLoading();
       window.location.href = e.triggerElement.href;
-    });</script></div><script>const is_mobi = navigator.userAgent.toLowerCase().match(/(ipod|ipad|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i) != null;
-    (function() {
+    });</script></div><script>(function() {
+      const is_mobi = navigator.userAgent.toLowerCase().match(/(ipod|ipad|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|wince)/i) != null;
       var max_length = is_mobi ? 10 : 20;
       fetch('https://v1.hitokoto.cn/?max_length='+max_length)
         .then(function (res){
