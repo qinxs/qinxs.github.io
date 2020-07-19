@@ -9,7 +9,7 @@
     
     <url>
         <loc>https://qinxs.github.io/cover/</loc>
-        <lastmod>2020-07-19T05:09:33.262Z</lastmod>
+        <lastmod>2020-07-19T08:55:35.856Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -57,14 +57,14 @@
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/series/docker/test2/</loc>
+        <loc>https://qinxs.github.io/series/docker/Introduction/</loc>
         <lastmod>2020-07-15T16:56:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/series/docker/Introduction/</loc>
+        <loc>https://qinxs.github.io/series/docker/test2/</loc>
         <lastmod>2020-07-15T16:56:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
