@@ -133,4 +133,4 @@
     document.addEventListener('pjax:error', function (e) {
       window.HideLoading();
       window.location.href = e.triggerElement.href;
-    });</script></div><script src="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/js/clicklove.js" defer="defer"></script><script src="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/js/piao.js" defer="defer"></script></body></html>
+    });</script></div><script>fetch("https://v1.hitokoto.cn/?max_length=10").then(function(o){return o.json()}).then(function(o){window.hitokoto=o.hitokoto,document.getElementById("hitokoto").innerText=window.hitokoto}).catch(function(o){console.error(o)})</script><script src="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/js/clicklove.js" defer="defer"></script><script src="https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/js/piao.js" defer="defer"></script></body></html>
