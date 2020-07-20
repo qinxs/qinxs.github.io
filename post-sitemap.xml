@@ -2,13 +2,13 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://qinxs.github.io</loc>
+        <loc>https://7bxing.com</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>https://qinxs.github.io/posts/991130e/</loc>
+        <loc>https://7bxing.com/posts/991130e/</loc>
         <lastmod>2020-07-14T06:48:16.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -16,7 +16,7 @@
     </url>
 
     <url>
-        <loc>https://qinxs.github.io/posts/be2c6b79/</loc>
+        <loc>https://7bxing.com/posts/be2c6b79/</loc>
         <lastmod>2020-07-05T14:06:01.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -24,7 +24,7 @@
     </url>
 
     <url>
-        <loc>https://qinxs.github.io/posts/3713cf69/</loc>
+        <loc>https://7bxing.com/posts/3713cf69/</loc>
         <lastmod>2020-06-08T13:12:21.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -32,7 +32,7 @@
     </url>
 
     <url>
-        <loc>https://qinxs.github.io/posts/e28ceec1/</loc>
+        <loc>https://7bxing.com/posts/e28ceec1/</loc>
         <lastmod>2020-05-16T05:05:02.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -40,7 +40,7 @@
     </url>
 
     <url>
-        <loc>https://qinxs.github.io/posts/d4a1185/</loc>
+        <loc>https://7bxing.com/posts/d4a1185/</loc>
         <lastmod>2020-05-16T05:00:02.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

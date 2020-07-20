@@ -2,97 +2,97 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://qinxs.github.io</loc>
+        <loc>https://7bxing.com</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/cover/</loc>
+        <loc>https://7bxing.com/tongji/</loc>
+        <lastmod>2020-07-20T08:50:07.715Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/cover/</loc>
         <lastmod>2020-07-19T08:55:35.856Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/more/operations/</loc>
+        <loc>https://7bxing.com/more/operations/</loc>
         <lastmod>2020-07-18T09:22:30.932Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/about/</loc>
+        <loc>https://7bxing.com/about/</loc>
         <lastmod>2020-07-18T09:02:54.052Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/tongji/</loc>
-        <lastmod>2020-07-17T13:59:04.694Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://qinxs.github.io/friends/</loc>
+        <loc>https://7bxing.com/friends/</loc>
         <lastmod>2020-07-17T10:30:26.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/404</loc>
+        <loc>https://7bxing.com/404</loc>
         <lastmod>2020-07-16T16:30:59.608Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/series/docker/</loc>
+        <loc>https://7bxing.com/series/docker/</loc>
         <lastmod>2020-07-16T04:57:35.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/series/docker/test2/</loc>
+        <loc>https://7bxing.com/series/docker/Introduction/</loc>
         <lastmod>2020-07-15T16:56:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/series/docker/Introduction/</loc>
+        <loc>https://7bxing.com/series/docker/test2/</loc>
         <lastmod>2020-07-15T16:56:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/more/CatchTheCat/</loc>
+        <loc>https://7bxing.com/more/CatchTheCat/</loc>
         <lastmod>2020-06-23T12:16:45.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/more/tools/</loc>
+        <loc>https://7bxing.com/more/tools/</loc>
         <lastmod>2020-05-26T15:12:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/tags/</loc>
+        <loc>https://7bxing.com/tags/</loc>
         <lastmod>2020-05-24T07:17:13.393Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://qinxs.github.io/categories/</loc>
+        <loc>https://7bxing.com/categories/</loc>
         <lastmod>2020-05-16T07:29:05.849Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
