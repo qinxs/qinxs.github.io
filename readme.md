@@ -1,2 +1,2 @@
 # 预览地址
-[qinxs.github.io](https://qinxs.github.io/)
+[https://7bxing.com](https://7bxing.com)
