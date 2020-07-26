@@ -8,15 +8,15 @@
     </url>
     
     <url>
-        <loc>https://7bxing.com/more/operations/</loc>
-        <lastmod>2020-07-26T06:56:22.969Z</lastmod>
+        <loc>https://7bxing.com/about/</loc>
+        <lastmod>2020-07-26T08:53:41.043Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://7bxing.com/about/</loc>
-        <lastmod>2020-07-25T06:31:26.630Z</lastmod>
+        <loc>https://7bxing.com/more/operations/</loc>
+        <lastmod>2020-07-26T06:56:22.969Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -64,14 +64,14 @@
     </url>
     
     <url>
-        <loc>https://7bxing.com/series/docker/Introduction/</loc>
+        <loc>https://7bxing.com/series/docker/test2/</loc>
         <lastmod>2020-07-15T16:56:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://7bxing.com/series/docker/test2/</loc>
+        <loc>https://7bxing.com/series/docker/Introduction/</loc>
         <lastmod>2020-07-15T16:56:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
