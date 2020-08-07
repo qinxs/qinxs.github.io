@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://7bxing.com/more/operations/</loc>
+        <lastmod>2020-08-06T15:22:03.432Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://7bxing.com/message/</loc>
         <lastmod>2020-08-02T05:24:37.552Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -38,13 +45,6 @@
     <url>
         <loc>https://7bxing.com/series/docker/Introduction/</loc>
         <lastmod>2020-07-28T09:56:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://7bxing.com/more/operations/</loc>
-        <lastmod>2020-07-27T16:28:58.006Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
