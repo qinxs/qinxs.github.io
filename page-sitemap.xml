@@ -8,29 +8,8 @@
     </url>
     
     <url>
-        <loc>https://7bxing.com/cover/</loc>
-        <lastmod>2020-08-07T04:39:22.953Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://7bxing.com/more/operations/</loc>
-        <lastmod>2020-08-06T15:22:03.432Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://7bxing.com/message/</loc>
-        <lastmod>2020-08-02T05:24:37.552Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>https://7bxing.com/about/</loc>
-        <lastmod>2020-07-28T16:42:57.347Z</lastmod>
+        <lastmod>2020-07-28T16:42:57.404Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -51,7 +30,7 @@
     
     <url>
         <loc>https://7bxing.com/404</loc>
-        <lastmod>2020-07-27T09:11:49.573Z</lastmod>
+        <lastmod>2020-07-27T09:11:49.931Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -64,8 +43,22 @@
     </url>
     
     <url>
-        <loc>https://7bxing.com/tongji/</loc>
-        <lastmod>2020-07-20T08:57:15.960Z</lastmod>
+        <loc>https://7bxing.com/more/operations/</loc>
+        <lastmod>2020-07-26T06:56:21.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/message/</loc>
+        <lastmod>2020-07-22T10:35:58.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/cover/</loc>
+        <lastmod>2020-07-17T11:08:34.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -73,6 +66,13 @@
     <url>
         <loc>https://7bxing.com/series/docker/Quick-deploy/</loc>
         <lastmod>2020-07-15T16:56:14.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/tongji/</loc>
+        <lastmod>2020-06-27T15:46:28.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -93,14 +93,14 @@
     
     <url>
         <loc>https://7bxing.com/tags/</loc>
-        <lastmod>2020-05-24T07:17:13.393Z</lastmod>
+        <lastmod>2020-05-24T07:17:13.451Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>https://7bxing.com/categories/</loc>
-        <lastmod>2020-05-16T07:29:05.849Z</lastmod>
+        <lastmod>2020-05-16T07:29:05.923Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
