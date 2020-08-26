@@ -3,7 +3,7 @@
     function changeSecond() {
       document.getElementById("second_show").innerHTML = timeout;
       timeout--;
-      if (timeout == 0) {
+      if (timeout == -1) {
         document.getElementById("home").click();
       } else {
         setTimeout(() => {
