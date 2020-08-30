@@ -6,7 +6,5 @@ Disallow: /
 Allow: posts
 Allow: more
 Allow: series
-Allow: Css
-Allow: Js
 
 Sitemap: https://7bxing.com/sitemap.xml
