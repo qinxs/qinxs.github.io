@@ -1,8 +1,6 @@
 User-agent: AhrefsBot
 Disallow: /
 
-# Allow
-# posts, more, series
 User-agent: *
 Disallow: /
 Allow: posts
