@@ -1,10 +1,18 @@
 User-agent: AhrefsBot
 Disallow: /
 
+# Only posts, more, series allowed
 User-agent: *
-Allow: /posts/
-Allow: /more/
-Allow: /series/
-Disallow: /
+Disallow: /about/
+Disallow: /archives/
+Disallow: /categories/
+Disallow: /cover/
+Disallow: /fonts/
+Disallow: /friends/
+Disallow: /img/
+Disallow: /lib/
+Disallow: /message/
+Disallow: /tags/
+Disallow: /tongji/
 
 Sitemap: https://7bxing.com/sitemap.xml
