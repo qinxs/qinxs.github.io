@@ -1,7 +1,9 @@
 User-agent: AhrefsBot
 Disallow: /
 
-# Only posts, more, series allowed
+# Allow
+# posts, more, series
+# Css, Js
 User-agent: *
 Disallow: /about/
 Disallow: /archives/
