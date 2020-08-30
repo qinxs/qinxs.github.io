@@ -3,18 +3,12 @@ Disallow: /
 
 # Allow
 # posts, more, series
-# Css, Js
 User-agent: *
-Disallow: /about/
-Disallow: /archives/
-Disallow: /categories/
-Disallow: /cover/
-Disallow: /fonts/
-Disallow: /friends/
-Disallow: /img/
-Disallow: /lib/
-Disallow: /message/
-Disallow: /tags/
-Disallow: /tongji/
+Disallow: /
+Allow: posts
+Allow: more
+Allow: series
+Allow: Css
+Allow: Js
 
 Sitemap: https://7bxing.com/sitemap.xml
