@@ -6,7 +6,7 @@ var customSearch;
 
 	// 校正页面定位（被导航栏挡住的区域）
 	var scrollCorrection = 80; // (header height = 64px) + (gap = 16px)
-	var $headerAnchor = $('.l_header', '.cover-wrapper');
+	var $headerAnchor = $('.l_header');
 	if ($headerAnchor[0]) {
 		scrollCorrection = $headerAnchor[0].clientHeight + 16;
 	}
@@ -14,7 +14,7 @@ var customSearch;
 	// 尝试： 重设数据值
 	function restData() {
 		scrollCorrection = 80;
-		$headerAnchor = $('.l_header', '.cover-wrapper');
+		$headerAnchor = $('.l_header');
 		if ($headerAnchor[0]) {
 			scrollCorrection = $headerAnchor[0].clientHeight + 16;
 		}
@@ -33,7 +33,7 @@ var customSearch;
 		const $postsBtn = $('.menu .active');            // 一级导航上的当前激活的按钮
 		const $topBtn = $('.s-top');                     // 向上
 		const $titleBtn = $('h1.title', '#header-meta'); // 文章内标题
-		const $bodyAnchor = $('.l_body');                // 页面主体
+		const $bodyAnchor = $('.safearea');                // 页面主体
 
 		if ($postsBtn.length && $bodyAnchor) {
 			$postsBtn.click(e => {
@@ -71,23 +71,23 @@ var customSearch;
 
 		var showHeaderPoint = 0;
 		if ($coverAnchor[0]) {
-			if(enableCover == "true" && $('.cover.half').css('display') !== 'none') // Pjax 处理
-				showHeaderPoint = $coverAnchor[0].clientHeight - 180;
+			if(enableCover == "true" && $('.cover-wrapper#half').css('display') !== 'none') // Pjax 处理
+				showHeaderPoint = $coverAnchor[0].clientHeight - 240;
 		}
 
 		var pos = document.body.scrollTop;
-		if(enableCover == "true" && $('.cover.half').css('display') === 'none')
-			pos += 180; // Pjax 处理
+		if(enableCover == "true" && $('.cover-wrapper#half').css('display') === 'none')
+			pos += 240; // Pjax 处理
 
 		$(document, window).scroll(() => {
 			let scrollTop = $(window).scrollTop();  // 滚动条距离顶部的距离
 
-			if(enableCover == "true" && $('.cover.half').css('display') === 'none')
-				scrollTop += 180; // Pjax 处理
+			if(enableCover == "true" && $('.cover-wrapper#half').css('display') === 'none')
+				scrollTop += 240; // Pjax 处理
 
 			const del = scrollTop - pos;
 			pos = scrollTop;
-			if (scrollTop > 180) {
+			if (scrollTop > 240) {
 				$topBtn.addClass('show');
 				if (del > 0) {
 					$topBtn.removeClass('hl');
@@ -97,7 +97,7 @@ var customSearch;
 			} else {
 				$topBtn.removeClass('show').removeClass('hl');
 			}
-			if (scrollTop > showHeaderPoint) {
+			if (scrollTop - showHeaderPoint > -1) {
 				$headerAnchor.addClass('show');
 			} else {
 				$headerAnchor.removeClass('show');
@@ -137,12 +137,12 @@ var customSearch;
 		});
 
 		// bind events to every btn
-		let $commentTarget = $('.l_body .comments');  // 评论区域
+		let $commentTarget = $('.l_body article#comments');  // 评论区域
 		if ($commentTarget.length) {
 			$comment.click(e => {                     // 评论按钮点击后 跳转到评论区域
 				e.preventDefault();
 				e.stopPropagation();
-				scrolltoElement($('.l_body .comments'));
+				scrolltoElement($('.l_body article#comments'));
 				e.stopImmediatePropagation();
 			});
 		} else $comment.remove(); // 关闭了评论，则隐藏
@@ -349,34 +349,35 @@ var customSearch;
 
 	// 设置搜索服务
 	function setSearchService() {
+		var SearchServiceimagePath="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/img/"
 		if (SEARCH_SERVICE === 'google') {
 			customSearch = new GoogleCustomSearch({
 				apiKey: GOOGLE_CUSTOM_SEARCH_API_KEY,
 				engineId: GOOGLE_CUSTOM_SEARCH_ENGINE_ID,
-				imagePath: "/img/"
+				imagePath: SearchServiceimagePath
 			});
 		} else if (SEARCH_SERVICE === 'algolia') {
 			customSearch = new AlgoliaSearch({
 				apiKey: ALGOLIA_API_KEY,
 				appId: ALGOLIA_APP_ID,
 				indexName: ALGOLIA_INDEX_NAME,
-				imagePath: "/img/"
+				imagePath: SearchServiceimagePath
 			});
 		} else if (SEARCH_SERVICE === 'hexo') {
 			customSearch = new HexoSearch({
-				imagePath: "/img/"
+				imagePath: SearchServiceimagePath
 			});
 		} else if (SEARCH_SERVICE === 'azure') {
 			customSearch = new AzureSearch({
 				serviceName: AZURE_SERVICE_NAME,
 				indexName: AZURE_INDEX_NAME,
 				queryKey: AZURE_QUERY_KEY,
-				imagePath: "/img/"
+				imagePath: SearchServiceimagePath
 			});
 		} else if (SEARCH_SERVICE === 'baidu') {
 			customSearch = new BaiduSearch({
 				apiId: BAIDU_API_ID,
-				imagePath: "/img/"
+				imagePath: SearchServiceimagePath
 			});
 		}
 	}
@@ -415,7 +416,7 @@ var customSearch;
 
 		// 全屏封面底部箭头
 		$('.scroll-down').on('click', function () {
-			scrolltoElement('.l_body');
+			scrolltoElement('.safearea');
 		});
 
 
