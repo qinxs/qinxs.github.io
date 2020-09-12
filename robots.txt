@@ -6,6 +6,7 @@ User-agent: *
 Allow: /posts/
 Allow: /more/
 Allow: /series/
+Allow: /friends/
 Disallow: /
 
 Sitemap: https://7bxing.com/sitemap.xml
