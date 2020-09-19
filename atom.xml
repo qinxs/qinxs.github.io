@@ -30,12 +30,10 @@
     
     
     
-    <category term="工具学习" scheme="https://7bxing.com/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="Hexo" scheme="https://7bxing.com/categories/%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/Hexo/"/>
+    <category term="Hexo" scheme="https://7bxing.com/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="https://7bxing.com/tags/Hexo/"/>
+    <category term="Hexo备份" scheme="https://7bxing.com/tags/Hexo%E5%A4%87%E4%BB%BD/"/>
     
   </entry>
   
