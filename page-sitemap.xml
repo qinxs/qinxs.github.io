@@ -36,6 +36,83 @@
     </url>
     
     <url>
+        <loc>https://7bxing.com/friends/</loc>
+        <lastmod>2020-08-31T05:13:25.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/lab/</loc>
+        <lastmod>2020-08-30T11:54:21.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/series/docker/</loc>
+        <lastmod>2020-07-28T09:56:11.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/series/docker/Introduction/</loc>
+        <lastmod>2020-07-28T09:56:11.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/more/operations/</loc>
+        <lastmod>2020-07-26T06:56:21.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/message/</loc>
+        <lastmod>2020-07-22T10:35:58.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/cover/</loc>
+        <lastmod>2020-07-17T11:08:34.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/series/docker/Quick-deploy/</loc>
+        <lastmod>2020-07-15T16:56:14.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/tongji/</loc>
+        <lastmod>2020-06-27T15:46:28.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/more/CatchTheCat/</loc>
+        <lastmod>2020-06-23T12:16:45.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://7bxing.com/more/tools/</loc>
+        <lastmod>2020-05-26T15:12:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://7bxing.com/categories/</loc>
         <lastmod>2020-05-16T07:29:05.923Z</lastmod>
         <changefreq>weekly</changefreq>
