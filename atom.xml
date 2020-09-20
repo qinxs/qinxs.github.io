@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>qinxs小站</title>
-  <icon>https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/img/favicon.ico</icon>
+  <icon>https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/img/apple-touch-icon.png</icon>
   <subtitle>This is my subtitle</subtitle>
   <link href="https://7bxing.com/atom.xml" rel="self"/>
   
