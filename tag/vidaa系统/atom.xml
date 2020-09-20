@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://7bxing.com</id>
+    <title>qinxs小站 • Posts by &#34;vidaa系统&#34; tag</title>
+    <link href="https://7bxing.com" />
+    <updated>2020-07-05T14:06:01.000Z</updated>
+    <category term="其他" />
+    <category term="Hexo备份" />
+    <category term="Shell" />
+    <category term="猜数字游戏" />
+    <category term="VIDAA系统" />
+    <category term="git" />
+    <category term="短网址生成" />
+    <category term="javascript" />
+    <entry>
+        <id>https://7bxing.com/posts/be2c6b79/</id>
+        <title>VIDAA3/4系统工厂模式</title>
+        <link rel="alternate" href="https://7bxing.com/posts/be2c6b79/"/>
+        <content type="html">&lt;p&gt;之前在安装当贝市场时 了解到 &lt;a href=&#34;https://baike.baidu.com/item/%E6%B5%B7%E4%BF%A1VIDAA/1963115?fr=aladdin&#34; title=&#34;VIDAA：海信电视的操作系统&#34;&gt;VIDAA&lt;/a&gt; 系统，但在网上查找了各种方法，没能进入工厂模式&lt;br&gt;最近无意中看到方法（准确说应该是网上终于更新了），特此记录！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/img/md/be2c6b79/factory-mode.png&#34; alt=&#34;工厂模式&#34;&gt;&lt;/p&gt;
+&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;不同电视品牌、型号进入工厂模式的方法都不一样…&lt;br&gt;好好的开发功能，做优化，不好么？ 搞这些！！！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;进入工厂模式&#34;&gt;&lt;a href=&#34;#进入工厂模式&#34; class=&#34;headerlink&#34; title=&#34;进入工厂模式&#34;&gt;&lt;/a&gt;进入工厂模式&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;按 遥控器 上的 “智汇”键，进入到桌面&lt;/li&gt;
+&lt;li&gt;点击“设置”项进入设置界面&lt;/li&gt;
+&lt;li&gt;点击“声音设置”，遥控器选中“声音平衡”&lt;/li&gt;
+&lt;li&gt;按遥控器“菜单-OK-菜单-OK”键&lt;/li&gt;
+&lt;li&gt;此时可以看到电视机左上角出现大字“M”&lt;/li&gt;
+&lt;li&gt;接着按遥控器上的“菜单”键&lt;/li&gt;
+&lt;li&gt;进入到工程设置界面（普通用户请谨慎操作）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;退出方法： 遥控器关机，再开机 然后选择电视信号源&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;相关参数&#34;&gt;&lt;a href=&#34;#相关参数&#34; class=&#34;headerlink&#34; title=&#34;相关参数&#34;&gt;&lt;/a&gt;相关参数&lt;/h2&gt;&lt;p&gt;开机模式，三种选项的含义是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;记忆 - 关闭机身电源开关，再次打开时，电视状态为关闭前的状态，物理关机前用遥控器关了就是关，没关就是开&lt;/li&gt;
+&lt;li&gt;关 - 关闭机身电源开关，再次打开时，电视状态永远为关，需要按一下遥控器的电源才会打开&lt;/li&gt;
+&lt;li&gt;开 - 关闭机身电源开关，再次打开时，电视状态永远为开&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;其他&#34;&gt;&lt;a href=&#34;#其他&#34; class=&#34;headerlink&#34; title=&#34;其他&#34;&gt;&lt;/a&gt;其他&lt;/h2&gt;&lt;p&gt;如果需要关闭开机广告，直接打客服电话反馈就行，不用自己去破解&lt;/p&gt;
+&lt;h2 id=&#34;参考教程&#34;&gt;&lt;a href=&#34;#参考教程&#34; class=&#34;headerlink&#34; title=&#34;参考教程&#34;&gt;&lt;/a&gt;参考教程&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://www.znds.com/tv-1170617-1-1.html&#34;&gt;海信电视精简教程，去除电视多余应用，换桌面&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.znds.com/tv-1010861-1-1.html&#34;&gt;海信工厂模式没有adb调试的开启方法&lt;/a&gt;&lt;/p&gt;
+</content>
+        <category term="VIDAA系统" />
+        <updated>2020-07-05T14:06:01.000Z</updated>
+    </entry>
+</feed>

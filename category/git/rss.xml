@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>qinxs小站 • Posts by &#34;git&#34; category</title>
+        <link>https://7bxing.com</link>
+        <description>基于Volantis主题搭建的Hexo博客，用于记录工作中的技术总结、博客主题信息以及其他个人爱好</description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 16 May 2020 13:05:02 +0800</pubDate>
+        <lastBuildDate>Sat, 16 May 2020 13:05:02 +0800</lastBuildDate>
+        <category>其他</category>
+        <category>Hexo备份</category>
+        <category>Shell</category>
+        <category>猜数字游戏</category>
+        <category>VIDAA系统</category>
+        <category>git</category>
+        <category>短网址生成</category>
+        <category>javascript</category>
+        <item>
+            <guid isPermalink="true">https://7bxing.com/posts/e28ceec1/</guid>
+            <title>git学习</title>
+            <link>https://7bxing.com/posts/e28ceec1/</link>
+            <category>git</category>
+            <pubDate>Sat, 16 May 2020 13:05:02 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;快速学习git, git学习总结, 常见问题 &lt;/p&gt;
+&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;
+
+&lt;h2 id=&#34;本文用于快速学习git&#34;&gt;&lt;a href=&#34;#本文用于快速学习git&#34; class=&#34;headerlink&#34; title=&#34;本文用于快速学习git&#34;&gt;&lt;/a&gt;本文用于快速学习git&lt;/h2&gt;&lt;p&gt;&lt;del&gt;请使用 &lt;code&gt;Chrome&lt;/code&gt; 浏览器, 并安装 &lt;code&gt;MarkDown Preview Plus&lt;/code&gt; 扩展后查看本文档&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&#34;三年-Git-使用心得-amp-常见问题整理&#34;&gt;&lt;a href=&#34;#三年-Git-使用心得-amp-常见问题整理&#34; class=&#34;headerlink&#34; title=&#34;三年 Git 使用心得 &amp;amp; 常见问题整理&#34;&gt;&lt;/a&gt;三年 Git 使用心得 &amp;amp; 常见问题整理&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://juejin.im/post/5ee649ff51882542ea2b5108&#34;&gt;https://juejin.im/post/5ee649ff51882542ea2b5108&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;廖雪峰教程&#34;&gt;&lt;a href=&#34;#廖雪峰教程&#34; class=&#34;headerlink&#34; title=&#34;廖雪峰教程&#34;&gt;&lt;/a&gt;廖雪峰教程&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&#34;&gt;教程链接&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375234012342f90be1fc4d81446c967bbdc19e7c03d3000&#34;&gt;别名配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;别名记录&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ git config --global alias.st status&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  st -&amp;gt; status&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  co -&amp;gt; checkout&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  ci -&amp;gt; commit&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  br -&amp;gt; branch&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  unstage -&amp;gt; reset HEAD&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  last -&amp;gt; log -1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  lg -&amp;gt; log --color --graph --pretty&amp;#x3D;format:&amp;#39;...&amp;#39; --abbrev-commit&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;服务端&#34;&gt;&lt;a href=&#34;#服务端&#34; class=&#34;headerlink&#34; title=&#34;服务端&#34;&gt;&lt;/a&gt;服务端&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gogs.io/&#34;&gt;Gogs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;推荐客户端（smartgit）&#34;&gt;&lt;a href=&#34;#推荐客户端（smartgit）&#34; class=&#34;headerlink&#34; title=&#34;推荐客户端（smartgit）&#34;&gt;&lt;/a&gt;推荐客户端（smartgit）&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.syntevo.com/smartgit/download/&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;git-bash命令&#34;&gt;&lt;a href=&#34;#git-bash命令&#34; class=&#34;headerlink&#34; title=&#34;git-bash命令&#34;&gt;&lt;/a&gt;git-bash命令&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;命令图解&lt;br&gt;&lt;img src=&#34;https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/img/git1.jpg&#34; alt=&#34;git命令图解&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_20282263/article/details/80859589&#34;&gt;常用命令&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cnblogs.com/SamWeb/p/6516784.html&#34;&gt;文件夹操作&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/zly9923218/article/details/53405156&#34;&gt;常用快捷键&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;快捷键&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Ctrl + A  移动光标到整条命令的起始位置&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Ctrl + E  移动光标到整条命令的结束位置&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Ctrl + ← 移动光标到单词的左边&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Ctrl + → 移动光标到单词的右边&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Ctrl + U  删除光标左侧的所有内容&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Ctrl + K  删除光标右侧的所有内容&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Ctrl + L  清屏（与reset类似，但不清除已显示内容）&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;移动命令  上（上一行）、下（下一行）、F（下一页）、B（上一页）、D（下半页）、U（上半页）、q（退出）&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;其  他：  Tab、上下&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

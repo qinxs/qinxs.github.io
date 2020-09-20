@@ -1,0 +1,38 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "qinxs小站 • All posts by \"未分类\" category",
+    "description": "基于Volantis主题搭建的Hexo博客，用于记录工作中的技术总结、博客主题信息以及其他个人爱好",
+    "home_page_url": "https://7bxing.com",
+    "items": [
+        {
+            "id": "https://7bxing.com/posts/52bf0210/",
+            "url": "https://7bxing.com/posts/52bf0210/",
+            "title": "2016美国总统候选人辩论",
+            "date_published": "2020-08-27T04:42:41.000Z",
+            "content_html": "<div class=\"note radiation\"><p>2016美国总统候选人辩论，共三场 <br>电视辩论，特朗普对决希拉里</p></div>\n\n<a id=\"more\"></a>\n\n<div style=\"display: none\">\n\n<h2 id=\"观看视频\"><a href=\"#观看视频\" class=\"headerlink\" title=\"观看视频\"></a>观看视频</h2></div>\n\n<div class=\"tabs\" id=\"bianlun\"><ul class=\"nav-tabs\"><li class=\"tab active\"><a href=\"#bianlun-1\">第一场</a></li><li class=\"tab\"><a href=\"#bianlun-2\"><del>第二场</del></a></li><li class=\"tab\"><a href=\"#bianlun-3\"><del>第三场</del></a></li><li class=\"tab\"><a href=\"#bianlun-4\">TODO</a></li></ul><div class=\"tab-content\"><div class=\"tab-pane active\" id=\"bianlun-1\"><div class=\"ixigua\">\n  <iframe src=\"https://www.ixigua.com/embed?group_id=6858053317222728204\" width=\"100%\" height=\"300\" frameborder=\"0\" loading=\"lazy\" allowfullscreen></iframe>\n</div></div><div class=\"tab-pane\" id=\"bianlun-2\"><p>请从下方原始链接观看~</p>\n<!-- <div class=\"video\"><video controls preload><source src='https://v3-xg-web.ixigua.com/67c60ae039b7053bbb0dfb65171d2149/5f47b19a/video/tos/cn/tos-cn-ve-4/da325f5138cb4460aebef570838336a9/?a=1768' type='video/mp4'>Your browser does not support the video tag.</video></div> --></div><div class=\"tab-pane\" id=\"bianlun-3\"><p>请从下方原始链接观看~</p>\n<!-- <div class=\"video\"><video controls preload><source src='https://v3-xg-web.ixigua.com/1284553a7ca9b081e8b1da860f4e066c/5f47b1a1/video/tos/cn/tos-cn-ve-4/2a14ab59ac2d421196a018bec7c05ea5/?a=1768' type='video/mp4'>Your browser does not support the video tag.</video></div> --></div><div class=\"tab-pane\" id=\"bianlun-4\"><blockquote>\n<p>如果感兴趣<br>请从下方原始链接观看第二场和第三场~</p>\n</blockquote>\n<p>备注：页面嵌套多个西瓜视频会非常卡顿（多个视频也会同时播放）<br>事实上，只嵌套一个时 也有报错（官方的iframe还处于开发模式）<br>而B站的该视频缺少字幕，清晰度最高只支持480p</p></div></div></div>\n\n<h2 id=\"转载出处\"><a href=\"#转载出处\" class=\"headerlink\" title=\"转载出处\"></a>转载出处</h2><blockquote>\n<p>视频来源: <a href=\"https://www.ixigua.com/\">西瓜视频</a><br>作者: <a href=\"https://www.ixigua.com/home/100451137325/pseries/?preActiveKey=home\">波涛学时</a></p>\n</blockquote>\n<p>原文链接：</p>\n<span class='btn regular'><a class=\"button\" href='https://www.ixigua.com/6858053317222728204' title='第一场'><i class='fas fa-play-circle'></i>第一场</a></span>\n<span class='btn regular'><a class=\"button\" href='https://www.ixigua.com/6857097688618369548' title='第二场'><i class='fas fa-play-circle'></i>第二场</a></span>\n<span class='btn regular'><a class=\"button\" href='https://www.ixigua.com/6855980266113106445' title='第三场'><i class='fas fa-play-circle'></i>第三场</a></span>\n",
+            "tags": [
+                "其他"
+            ]
+        },
+        {
+            "id": "https://7bxing.com/posts/be2c6b79/",
+            "url": "https://7bxing.com/posts/be2c6b79/",
+            "title": "VIDAA3/4系统工厂模式",
+            "date_published": "2020-07-05T14:06:01.000Z",
+            "content_html": "<p>之前在安装当贝市场时 了解到 <a href=\"https://baike.baidu.com/item/%E6%B5%B7%E4%BF%A1VIDAA/1963115?fr=aladdin\" title=\"VIDAA：海信电视的操作系统\">VIDAA</a> 系统，但在网上查找了各种方法，没能进入工厂模式<br>最近无意中看到方法（准确说应该是网上终于更新了），特此记录！</p>\n<p><img src=\"https://cdn.jsdelivr.net/gh/qinxs/cdn-assets/img/md/be2c6b79/factory-mode.png\" alt=\"工厂模式\"></p>\n<a id=\"more\"></a>\n\n<blockquote>\n<p>不同电视品牌、型号进入工厂模式的方法都不一样…<br>好好的开发功能，做优化，不好么？ 搞这些！！！</p>\n</blockquote>\n<h2 id=\"进入工厂模式\"><a href=\"#进入工厂模式\" class=\"headerlink\" title=\"进入工厂模式\"></a>进入工厂模式</h2><ol>\n<li>按 遥控器 上的 “智汇”键，进入到桌面</li>\n<li>点击“设置”项进入设置界面</li>\n<li>点击“声音设置”，遥控器选中“声音平衡”</li>\n<li>按遥控器“菜单-OK-菜单-OK”键</li>\n<li>此时可以看到电视机左上角出现大字“M”</li>\n<li>接着按遥控器上的“菜单”键</li>\n<li>进入到工程设置界面（普通用户请谨慎操作）</li>\n</ol>\n<blockquote>\n<p>退出方法： 遥控器关机，再开机 然后选择电视信号源</p>\n</blockquote>\n<h2 id=\"相关参数\"><a href=\"#相关参数\" class=\"headerlink\" title=\"相关参数\"></a>相关参数</h2><p>开机模式，三种选项的含义是：</p>\n<ul>\n<li>记忆 - 关闭机身电源开关，再次打开时，电视状态为关闭前的状态，物理关机前用遥控器关了就是关，没关就是开</li>\n<li>关 - 关闭机身电源开关，再次打开时，电视状态永远为关，需要按一下遥控器的电源才会打开</li>\n<li>开 - 关闭机身电源开关，再次打开时，电视状态永远为开</li>\n</ul>\n<h2 id=\"其他\"><a href=\"#其他\" class=\"headerlink\" title=\"其他\"></a>其他</h2><p>如果需要关闭开机广告，直接打客服电话反馈就行，不用自己去破解</p>\n<h2 id=\"参考教程\"><a href=\"#参考教程\" class=\"headerlink\" title=\"参考教程\"></a>参考教程</h2><p><a href=\"https://www.znds.com/tv-1170617-1-1.html\">海信电视精简教程，去除电视多余应用，换桌面</a></p>\n<p><a href=\"https://www.znds.com/tv-1010861-1-1.html\">海信工厂模式没有adb调试的开启方法</a></p>\n",
+            "tags": [
+                "VIDAA系统"
+            ]
+        },
+        {
+            "id": "https://7bxing.com/posts/d4a1185/",
+            "url": "https://7bxing.com/posts/d4a1185/",
+            "title": "hello world",
+            "date_published": "2020-05-16T05:00:02.000Z",
+            "content_html": "<p>Hexo自动生成的hello world</p>\n<a id=\"more\"></a>\n\n<p>Welcome to <a href=\"https://hexo.io/\">Hexo</a>! This is your very first post. Check <a href=\"https://hexo.io/docs/\">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href=\"https://hexo.io/docs/troubleshooting.html\">troubleshooting</a> or you can ask me on <a href=\"https://github.com/hexojs/hexo/issues\">GitHub</a>.</p>\n<h2 id=\"Quick-Start\"><a href=\"#Quick-Start\" class=\"headerlink\" title=\"Quick Start\"></a>Quick Start</h2><h3 id=\"Create-a-new-post\"><a href=\"#Create-a-new-post\" class=\"headerlink\" title=\"Create a new post\"></a>Create a new post</h3><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo new <span class=\"string\">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>\n\n<p>More info: <a href=\"https://hexo.io/docs/writing.html\">Writing</a></p>\n<h3 id=\"Run-server\"><a href=\"#Run-server\" class=\"headerlink\" title=\"Run server\"></a>Run server</h3><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo server</span><br></pre></td></tr></table></figure>\n\n<p>More info: <a href=\"https://hexo.io/docs/server.html\">Server</a></p>\n<h3 id=\"Generate-static-files\"><a href=\"#Generate-static-files\" class=\"headerlink\" title=\"Generate static files\"></a>Generate static files</h3><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo generate</span><br></pre></td></tr></table></figure>\n\n<p>More info: <a href=\"https://hexo.io/docs/generating.html\">Generating</a></p>\n<h3 id=\"Deploy-to-remote-sites\"><a href=\"#Deploy-to-remote-sites\" class=\"headerlink\" title=\"Deploy to remote sites\"></a>Deploy to remote sites</h3><figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo deploy</span><br></pre></td></tr></table></figure>\n\n<p>More info: <a href=\"https://hexo.io/docs/one-command-deployment.html\">Deployment</a></p>\n",
+            "tags": [
+                "其他"
+            ]
+        }
+    ]
+}
