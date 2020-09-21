@@ -1,12 +1,13 @@
 User-agent: AhrefsBot
 Disallow: /
 
-# Only posts, more, series allowed
+# Only XXX allowed
 User-agent: *
 Allow: /posts/
 Allow: /more/
 Allow: /series/
 Allow: /friends/
+Allow: /message/
 Disallow: /
 
 Sitemap: https://7bxing.com/sitemap.xml
