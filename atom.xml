@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>qinxs小站</title>
   
-  <subtitle>This is my subtitle</subtitle>
+  <subtitle>qinxs的个人博客</subtitle>
   <link href="https://7bxing.com/atom.xml" rel="self"/>
   
   <link href="https://7bxing.com/"/>
