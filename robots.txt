@@ -1,13 +1,13 @@
 User-agent: AhrefsBot
 Disallow: /
 
-# Only XXX allowed
 User-agent: *
-Allow: /posts/
-Allow: /more/
-Allow: /series/
-Allow: /friends/
-Allow: /message/
-Disallow: /
+Disallow: /cover/
+Disallow: /categories/
+Disallow: /tags/
+Disallow: /tongji/
+Disallow: /lab/
+Disallow: /about/
+Disallow: /404
 
 Sitemap: https://7bxing.com/sitemap.xml
