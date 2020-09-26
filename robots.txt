@@ -3,6 +3,7 @@ Disallow: /
 
 User-agent: *
 Disallow: /cover/
+Disallow: /archives/
 Disallow: /categories/
 Disallow: /tags/
 Disallow: /tongji/
