@@ -3,11 +3,6 @@
 
 
     <sitemap>
-        <loc>https://7bxing.com/post-sitemap.xml</loc>
-        <lastmod>2020-09-19T12:38:31.000Z</lastmod>
-    </sitemap>
-
-    <sitemap>
         <loc>https://7bxing.com/page-sitemap.xml</loc>
         <lastmod>2020-10-09T15:56:18.368Z</lastmod>
     </sitemap>
