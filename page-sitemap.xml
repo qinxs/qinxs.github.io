@@ -8,6 +8,13 @@
     </url>
     
     <url>
+        <loc>https://7bxing.com/404</loc>
+        <lastmod>2020-10-22T06:45:20.906Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://7bxing.com/about/</loc>
         <lastmod>2020-10-09T15:56:18.368Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,13 +24,6 @@
     <url>
         <loc>https://7bxing.com/seek/</loc>
         <lastmod>2020-10-07T11:36:08.055Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://7bxing.com/404</loc>
-        <lastmod>2020-10-02T05:33:14.287Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
