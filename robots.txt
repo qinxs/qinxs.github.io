@@ -6,7 +6,6 @@ Disallow: /cover/
 Disallow: /archives/
 Disallow: /categories/
 Disallow: /tags/
-Disallow: /tongji/
 Disallow: /lab/
 Disallow: /about/
 Disallow: /404
