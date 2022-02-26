@@ -32,10 +32,10 @@
     
     <category term="IT技术" scheme="https://7bxing.com/categories/IT%E6%8A%80%E6%9C%AF/"/>
     
-    <category term="Win32术语及编码约定" scheme="https://7bxing.com/categories/IT%E6%8A%80%E6%9C%AF/Win32%E6%9C%AF%E8%AF%AD%E5%8F%8A%E7%BC%96%E7%A0%81%E7%BA%A6%E5%AE%9A/"/>
+    <category term="Win32编程" scheme="https://7bxing.com/categories/IT%E6%8A%80%E6%9C%AF/Win32%E7%BC%96%E7%A8%8B/"/>
     
     
-    <category term="Win32编程" scheme="https://7bxing.com/tags/Win32%E7%BC%96%E7%A8%8B/"/>
+    <category term="Win32术语及编码约定" scheme="https://7bxing.com/tags/Win32%E6%9C%AF%E8%AF%AD%E5%8F%8A%E7%BC%96%E7%A0%81%E7%BA%A6%E5%AE%9A/"/>
     
   </entry>
   
